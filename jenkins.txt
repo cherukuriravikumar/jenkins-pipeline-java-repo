@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Building java source code..'
 		sh '''javac jenkins.java
-		java jenkins
+		java JenkinsPipeline
 		'''
 		 //echo 'Fail!'; exit 1
             }
